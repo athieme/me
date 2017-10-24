@@ -1,0 +1,21 @@
+{
+  "description": "Defintion of Alex",
+  "scripts": {
+    "update-coc": "weallbehave -o . && git add CODE_OF_CONDUCT.md && git commit -m 'docs(coc): updated CODE_OF_CONDUCT.md'"
+  },
+  "author": {
+    "name": "Alex",
+    "email": "",
+    "twitter": ""
+  },
+  "contributors": [
+    {
+      "name": "Josh",
+      "email": "josh@c11k.org",
+      "coc-enforcer": true
+    }
+  ],
+  "devDependencies": {
+    "weallbehave": "^1.2.0"
+  }
+}
